@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-image: url('background.jpg');
+    background-size: cover ;
+    color: aliceblue;
+}
+.navbar-nav .nav-item:hover .nav-link {
+    color: rgb(189, 4, 189) !important; 
+    border-bottom: 2px solid #FFF;
+}
+.container{
+    color: #fff;
+    text-align: center;
+    margin-top: 7%;
+}
+.btn {
+    margin-top: 20px;
+}
+
+
+.course-heading{
+    font-size: xx-large;
+    font-weight: bold;
+    text-decoration: underline; 
+}
+.username-card {
+    position: fixed;
+    bottom: 0px;
+    left: 10px;
+    padding: 15px;
+    background-color: rgba(105, 2, 83, 0.938);
+    border: 2px solid rgb(175, 5, 175);
+    border-radius: 5px;
+    color: #FFF;
+    font-weight: bolder;
+}
+.timer-card {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    padding: 15px;
+    background-color: rgba(209, 8, 166, 0.938);
+    border: 2px solid purple;
+    border-radius: 5px;
+    color: #FFF;
+    font-weight: bolder;
+    
+}
+.name-entry-card {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.name-entry-card h3 {
+    color: purple;
+}
+.marr{
+    margin: 0% 20%;
+    border: 6px double rgb(212, 8, 212) ;
+    padding: 8px;
+}
+.card {
+    color: rgb(68, 7, 68);
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    margin: 0% 20%;
+    padding: 8px;
+}
+#retry-btn {
+    margin-top: 10px;
+}
