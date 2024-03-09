@@ -140,7 +140,7 @@ document.addEventListener("DOMContentLoaded", function () {
             window.location.reload();
          
             document.getElementById('home-btn').addEventListener('click', function () {
-                window.location.href = 'index.html'; // Replace 'index.html' with your home page URL
+                window.location.href = "../index.html"; 
             });    
         });
     }
